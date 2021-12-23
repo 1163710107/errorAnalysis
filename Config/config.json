@@ -1,0 +1,7 @@
+{
+    "grpc": {
+        "port": 50021,
+        "max_workers": 10
+    },
+    "labels": ["quality"]
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+
+package com.ices.sh.quality.rpc;
+
+option java_package = "com.ices.sh.quality.rpc";
+option java_outer_classname = "QualityRpc";
+
+service QualityService{
+    rpc errorAnalysis(google.protobuf.StringValue) returns (google.protobuf.StringValue);
+}
